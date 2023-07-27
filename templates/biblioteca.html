@@ -1,0 +1,46 @@
+{% include 'menu.html' %}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">}
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Mi Biblioteca de Canciones Favoritas</h1>
+    <div class="container-fluid">
+        <div class="row row-cols-1 row-cols-md-5 g-6">
+            {% for cancion in canciones_favoritas %}
+            <div class="col-md-2">
+                <div class="card mt-4">
+                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img class="card-img-top" src="{{ cancion[4] }}" alt="Portada del álbum">
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="h5 font-weight-bold"><a target="_blank">{{ cancion[1] }} - {{ cancion[6] }}</a></h5>
+                        <p class="mb-0">{{ cancion[2] }}</p>
+                        <p class="mb-0"><a href="{{ cancion[7] }}" target="_blank">{{ cancion[5].strftime('%Y')  }} - {{ cancion[8] }}</a></p>
+                        <div class="controls">
+                            <a href="{{ cancion[3] }}" target="_blank" class="btn btn-primary">Reproducir en Spotify</a>
+                            <form action="/eliminar_favorita/{{ cancion[0] }}" method="post">
+                                <button class="btn btn-danger" style="margin-top: 15px" >Eliminar de favoritos</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <footer class="py-4 bg-dark">
+        <div class="container px-4"><p class="m-0 text-center text-white">Realizado por: andresfr1409</p></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

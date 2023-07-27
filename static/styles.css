@@ -1,0 +1,101 @@
+.view {
+height: 100%;
+}
+
+#mobile-box {
+width: 360px;
+}
+
+.card {
+-webkit-border-radius: 10px;
+border-radius: 10px;
+background-color: #273035;
+font-family: "Aharoni";
+color: #ffffff;
+font-size: 20px;
+}
+
+.card .view {
+-webkit-border-top-left-radius: 10px;
+border-top-left-radius: 10px;
+-webkit-border-top-right-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.card h5 a {
+color: #1c6ae0;
+font-size: 25px;
+}
+
+.card h5 a:hover {
+color: #072f6b;
+}
+
+#pButton {
+float: left;
+}
+
+#timeline {
+    width: 90%;
+    height: 2px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+}
+
+#pButton {
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+#playhead {
+    width: 8px;
+    height: 8px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-top: -3px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    font-family: "Aharoni";
+    font-weight: bold;
+    color: #ffffff;
+}
+
+body{
+    background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 150px; /* Alto del footer */
+}
+
+input[type="search"] {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid;
+    margin-left: 600px;
+}
+button[type="submit"] {
+    padding: 10px 20px;
+    border: 2px solid;
+    font-weight: bold;
+    margin-right: 600px;
+}
+
+.controls{
+    margin-top: 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
