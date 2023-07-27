@@ -13,6 +13,7 @@ background-color: #273035;
 font-family: "Aharoni";
 color: #ffffff;
 font-size: 20px;
+box-shadow: 0 0 8px rgb(130, 255, 172);
 }
 
 .card .view {
@@ -80,12 +81,22 @@ input[type="search"] {
     padding: 10px;
     border: 2px solid;
     margin-left: 600px;
+    border-color: rgb(183, 240, 195);
 }
 button[type="submit"] {
     padding: 10px 20px;
     border: 2px solid;
     font-weight: bold;
     margin-right: 600px;
+    color: rgb(130, 255, 172);
+    font-family: "Aharoni";
+}
+
+button[type="submit"]:hover{
+    background-color: rgb(130, 255, 172);
+    color: #000000;
+    border-color: rgb(130, 255, 172);
+    font-family: "Aharoni";
 }
 
 .controls{
@@ -98,4 +109,23 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+    font-weight: bold;  
 }
+
+.nav-item {
+    font-size: 28px;
+    font-family: "Aharoni";
+}
+
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+
+.nav-link:hover{
+    color: rgb(130, 255, 172);
+}
+
+.navbar-container {
+    margin-right: 670px;
+}
+
