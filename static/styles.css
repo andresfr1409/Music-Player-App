@@ -73,7 +73,9 @@ body{
     background: #232526;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding-bottom: 150px; /* Alto del footer */
+    padding-bottom: 85px; /* Alto del footer */
+    font-size: 25px;
+    font-weight: bold;
 }
 
 input[type="search"] {
@@ -129,3 +131,10 @@ footer {
     margin-right: 670px;
 }
 
+.col-lg-8{
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: "Aharoni";
+    font-size: 20px;
+}
