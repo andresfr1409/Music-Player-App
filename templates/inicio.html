@@ -11,52 +11,56 @@
 </head>
 <body id="page-top">
     <!-- Header-->
-    <header class="bg-dark bg-gradient text-white" style="height: 50vh">
-        <div class="container-fluid px-7 text-center" style="padding-top: 110px">
+    <div class="p-5 bg-custom" id="inicio">
+        <div class="container">
             <h1 class="fw-bolder">¡Bienvenido a Mi Reproductor de Música!</h1>
             <p class="lead">Aquí podrás buscar y guardar tus canciones favoritas.</p>
             <hr class="my-4">   
             <p>Explora millones de canciones y crea tu propia biblioteca de favoritas.</p>
             <a class="btn btn-lg btn-light" href="{{ url_for('index') }}">Comenzar</a>
         </div>
-    </header>
-    <!-- About section-->
-    <section class="bg-dark" id="about bg-dark">
-        <div class="container px-4" >
+    </div>
+    <section class="bg-custom" id="about">
+        <div class="container-fluid">
             <div class="row gx-4 justify-content-center">
-                <div class="col-lg-8" style="margin-left: 900px">
-                    <div class="card mb-3">
-                        <img src="https://fotografias.lasexta.com/clipping/cmsimages01/2019/10/16/B3DC116A-CE82-4791-935A-18E13630923F/default.jpg?crop=1300,731,x0,y12&width=1900&height=1069&optimize=low" class="card-img-top" style="height:300px">
-                        <div class="card-body">
-                                <p class="lead">Explora un amplio catálogo de canciones, artistas y álbumes de diferentes géneros.
-                                Crea tu biblioteca personalizada y descubre nuevos éxitos musicales</p>
-                            <ul>
-                                <li>Conoce detalles sobre los artistas y accede a enlaces directos para escuchar la música en Spotify.</li>
-                                <li>Guarda tus canciones favoritas en tu biblioteca personal para acceder a ellas en cualquier momento.</li>
-                                <li>Explora, descubre y disfruta de la música que te apasiona en nuestra página web de reproducción de música con la magia de la API de Spotify.</li>
-                            </ul>
+                <div class="col-lg-8">
+                    <div id="carouselExampleDark" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>  
-    <!-- Services section-->
-    <section class="bg-dark" id="services">
-        <div class="container px-4">
-            <div class="row gx-4 justify-content-center">
-                <div class="col-lg-8" style="margin-right: 900px;">
-                    <div class="card mb-3">
-                        <img src="https://fotografias.lasexta.com/clipping/cmsimages01/2019/10/16/B3DC116A-CE82-4791-935A-18E13630923F/default.jpg?crop=1300,731,x0,y12&width=1900&height=1069&optimize=low" class="card-img-top" style="height:300px">
-                        <div class="card-body">
-                                <p class="lead">Explora un amplio catálogo de canciones, artistas y álbumes de diferentes géneros.
-                                Crea tu biblioteca personalizada y descubre nuevos éxitos musicales</p>
-                            <ul>
-                                <li>Conoce detalles sobre los artistas y accede a enlaces directos para escuchar la música en Spotify.</li>
-                                <li>Guarda tus canciones favoritas en tu biblioteca personal para acceder a ellas en cualquier momento.</li>
-                                <li>Explora, descubre y disfruta de la música que te apasiona en nuestra página web de reproducción de música con la magia de la API de Spotify.</li>
-                            </ul>
+                        <div class="carousel-inner rounded-5 shadow-4-strong">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="https://img.freepik.com/free-photo/back-view-crowd-fans-watching-live-performance-music-concert-night-copy-space_637285-544.jpg?w=2000" class="d-block w-100" alt="Wild Landscape">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Vibra con tu musica</h5>
+                                    <p>Conoce detalles sobre los artistas y accede a enlaces directos para escuchar la música en Spotify.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="https://img1.wallspic.com/crops/8/5/9/5/5/155958/155958-techno_rave-berghain_panorama_bar-nightclub-techno-electronic_dance_music-1920x1080.jpg" class="d-block w-100" alt="Wild Landscape">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Tus temas favoritos</h5>
+                                    <p>Guarda tus canciones favoritas en tu biblioteca personal para acceder a ellas en cualquier momento.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://img3.wallspic.com/crops/3/7/4/4/3/134473/134473-electronic_instrument-dj_mixer-deejay-pioneer_dj-electronic_device-1920x1080.jpg" class="d-block w-100" alt="Wild Landscape">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Descrubre tu genero</h5>
+                                    <p>Explora, descubre y disfruta de la música que te apasiona en nuestra página web de reproducción de música.</p>
+                                </div>
+                            </div>
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -69,4 +73,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
-
