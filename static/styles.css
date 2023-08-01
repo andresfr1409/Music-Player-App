@@ -74,8 +74,9 @@ body{
     background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-bottom: 90px; /* Alto del footer */
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold;
+    font-family: "Verdana";
 }
 
 input[type="search"] {
@@ -146,11 +147,14 @@ footer {
 }
 
 #inicio{
-    background-color: rgb(82, 112, 94);
     border-radius: 20px;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-bottom: 30px;
-    margin-right: 450px;
-    margin-left: 450px;
+    margin-right: 520px;
+    margin-left: 520px;
     text-align: center;
+}
+
+#botom{
+    margin-bottom: 20px;
 }

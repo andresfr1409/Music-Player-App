@@ -11,13 +11,9 @@
 </head>
 <body id="page-top">
     <!-- Header-->
-    <div class="p-5 bg-custom" id="inicio">
+    <div class="p-4 bg-dark" id="inicio">
         <div class="container">
             <h1 class="fw-bolder">¡Bienvenido a Mi Reproductor de Música!</h1>
-            <p class="lead">Aquí podrás buscar y guardar tus canciones favoritas.</p>
-            <hr class="my-4">   
-            <p>Explora millones de canciones y crea tu propia biblioteca de favoritas.</p>
-            <a class="btn btn-lg btn-light" href="{{ url_for('index') }}">Comenzar</a>
         </div>
     </div>
     <section class="bg-custom" id="about">
@@ -36,6 +32,7 @@
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Vibra con tu musica</h5>
                                     <p>Conoce detalles sobre los artistas y accede a enlaces directos para escuchar la música en Spotify.</p>
+                                    <a class="btn btn-lg btn-light" id="botom" href="{{ url_for('index') }}">Comenzar</a>
                                 </div>
                             </div>
                             <div class="carousel-item" data-bs-interval="2000">
@@ -43,6 +40,7 @@
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Tus temas favoritos</h5>
                                     <p>Guarda tus canciones favoritas en tu biblioteca personal para acceder a ellas en cualquier momento.</p>
+                                    <a class="btn btn-lg btn-light" id="botom" href="{{ url_for('index') }}">Comenzar</a>
                                 </div>
                             </div>
                             <div class="carousel-item">
@@ -50,6 +48,7 @@
                                 <div class="carousel-caption d-none d-md-block">
                                     <h5>Descrubre tu genero</h5>
                                     <p>Explora, descubre y disfruta de la música que te apasiona en nuestra página web de reproducción de música.</p>
+                                    <a class="btn btn-lg btn-light" id="botom" href="{{ url_for('index') }}">Comenzar</a>
                                 </div>
                             </div>
                         </div>
