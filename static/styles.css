@@ -10,7 +10,7 @@ width: 360px;
 -webkit-border-radius: 10px;
 border-radius: 10px;
 background-color: #273035;
-font-family: "Aharoni";
+font-family: "Arial";
 color: #ffffff;
 font-size: 20px;
 box-shadow: 0 0 8px rgb(149, 223, 174);
@@ -64,7 +64,7 @@ float: left;
 
 h1{
     text-align: center;
-    font-family: "Aharoni";
+    font-family: "Arial";
     font-weight: bold;
     color: #ffffff;
 }
@@ -76,7 +76,7 @@ body{
     padding-bottom: 90px; /* Alto del footer */
     font-size: 23px;
     font-weight: bold;
-    font-family: "Verdana";
+    font-family: "Arial";
 }
 
 input[type="search"] {
@@ -92,14 +92,14 @@ button[type="submit"] {
     font-weight: bold;
     margin-right: 600px;
     color: rgb(130, 255, 172);
-    font-family: "Aharoni";
+    font-family: "Arial";
 }
 
 button[type="submit"]:hover{
     background-color: rgb(130, 255, 172);
     color: #000000;
     border-color: rgb(130, 255, 172);
-    font-family: "Aharoni";
+    font-family: "Arial";
 }
 
 .controls{
@@ -117,7 +117,7 @@ footer {
 
 .nav-item {
     font-size: 28px;
-    font-family: "Aharoni";
+    font-family: "Arial";
 }
 
 .nav-link{
@@ -142,7 +142,7 @@ footer {
 
 .carousel-caption{
     color: rgb(255, 220, 220);
-    font-family: "Verdana";
+    font-family: "Arial";
     font-weight: normal;
 }
 
