@@ -72,8 +72,10 @@ h1{
 body{
     background: #232526;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding-bottom: 90px; /* Alto del footer */
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),url("img/fondo_imagen.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ /* Alto del footer */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     font-size: 23px;
     font-weight: bold;
     font-family: "Arial";
@@ -107,17 +109,19 @@ button[type="submit"]:hover{
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    position: absolute;
+    margin-top: 100px;
     width: 100%;
     text-align: center;
-    font-weight: bold;  
+    font-weight: bold;
+    padding: 60px;
+    background-color: #171b38ad;
 }
 
 .nav-item {
     font-size: 28px;
     font-family: "Arial";
+    padding: 10px;
 }
 
 .nav-link{
@@ -129,7 +133,9 @@ footer {
 }
 
 .navbar-container {
-    margin-right: 670px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .col-lg-7{
@@ -153,8 +159,13 @@ footer {
     margin-right: 520px;
     margin-left: 520px;
     text-align: center;
+    background-color: #171b38b4;
 }
 
 #botom{
     margin-bottom: 20px;
+}
+
+#NavbarApp{
+    background-color: #171b38ad;
 }
