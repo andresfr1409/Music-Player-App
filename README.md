@@ -16,23 +16,23 @@ AudiOdyssey es una aplicación web desarrollada con Flask, HTML, CSS, Bootstrap 
 
 ![image](https://github.com/andresfr1409/Music-Player-App/assets/138944864/d468b5bd-9431-4662-a48b-12bc4a651d02)
 
-2. Seccion de Buscar
+2. ### Seccion de Buscar
 
 ![image](https://github.com/andresfr1409/Music-Player-App/assets/138944864/34ddb5af-8bdb-49ed-bce7-b0c3cbeaa79d)
 
-3. Busqueda de cancion por su nombre haciendo una solicitud REQUEST.POST a la API
+3. ### Busqueda de cancion por su nombre haciendo una solicitud REQUEST.POST a la API
 
 ![image](https://github.com/andresfr1409/Music-Player-App/assets/138944864/5f49f9b3-6e9a-4335-b3dc-ac8ea331e9e7)
 
-4. Redireccion directa a la cancion en spotify para reproducirla
+4. ### Redireccion directa a la cancion en spotify para reproducirla
 
 ![image](https://github.com/andresfr1409/Music-Player-App/assets/138944864/038cfcfd-8dbc-43f7-9156-546638cfe3fd)
 
-5. Seccion de Biblioteca
+5. ### Seccion de Biblioteca
 
 ![image](https://github.com/andresfr1409/Music-Player-App/assets/138944864/96ac825e-1228-41ec-9cf0-1f1df2a8f721)
 
-6. Se guarda la cancion buscada anteriormente en la Biblioteca de favoritos
+6. ### Se guarda la cancion buscada anteriormente en la Biblioteca de favoritos
 
 ![image](https://github.com/andresfr1409/Music-Player-App/assets/138944864/ed8b0b10-ae17-4dfe-aaa3-99795c0ecf46)
 
