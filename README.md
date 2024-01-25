@@ -16,13 +16,18 @@ pendiente
 
 ## Funcionalidades Principales
 
-- ### Inicio
+- ### Seccion deInicio
 
+#### Bienvenida y Explicación
+- Presenta a los usuarios una bienvenida al ingresar a la aplicación.
+- Brinda una breve explicación que destaca las capacidades principales de AudiOdyssey.
 
+- ### Seccion de Busqueda
 
-- ### Buscar
+#### Buscador Integrado
 
-
+- Utiliza la API de Spotify para buscar canciones por nombre, año, álbum y cantante o artista.
+- 
 
 - ### Biblioteca
 
