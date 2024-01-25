@@ -10,7 +10,7 @@ app.secret_key = "mysecretkey"
 # configurar MySql
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = ''
-app.config['MYSQL_HOST'] =  '127.0.0.1' # l ocalhost
+app.config['MYSQL_HOST'] =  '127.0.0.1' # localhost
 app.config['MYSQL_DB'] =  'bibloteca_canciones'
 app.config['MYSQL_PORT'] =  3306
 
