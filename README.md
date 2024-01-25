@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="" alt="AudiOdyssey">
+  <img src="static/img/AUDIoDY..png" alt="AudiOdyssey">
 </p>
 
 ## Nombre y descripcion 
