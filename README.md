@@ -41,6 +41,7 @@ AudiOdyssey es una aplicación web desarrollada con Flask, HTML, CSS, Bootstrap 
 - ### Seccion de Inicio
 
 #### Bienvenida y Explicación
+
 - Presenta a los usuarios una bienvenida al ingresar a la aplicación.
 - Brinda una breve explicación que destaca las capacidades principales de AudiOdyssey.
 
